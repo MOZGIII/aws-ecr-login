@@ -35,7 +35,7 @@ It will print full docker login command to the standard output.
 
 ### Usage with docker
 
-This app comes with a docker image: `MOZGIII/aws-ecr-login`.
+This app comes with a docker image: `mozgiii/aws-ecr-login`.
 Usage pattern is much the same: configure environment variables and run the command.
 
 ```shell
@@ -43,5 +43,5 @@ docker run --rm -it \
   -e AWS_ACCESS_KEY_ID=... \
   -e AWS_SECRET_ACCESS_KEY=... \
   -e AWS_REGION=... \
-  MOZGIII/aws-ecr-login
+  mozgiii/aws-ecr-login
 ```
